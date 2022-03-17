@@ -1,0 +1,15 @@
+﻿@using BravoSupermarket.Models;
+@using BravoSupermarket.ViewModels;
+@model HomeVM
+<ul>
+    @foreach (Product item in Model.Products)
+    {
+        <li>@item.Name @item.Price - @item.Category.Id - @item.Category.Name</li>
+    }
+</ul>
+<ul>
+    @foreach (Category item in Model.Categories)
+    {
+        <li>@item.Name</li>
+    }
+</ul>

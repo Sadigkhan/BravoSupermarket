@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20220317062431_ColumnDeletedFromProducts.cs" />
+    <Compile Remove="Migrations\20220317062431_ColumnDeletedFromProducts.Designer.cs" />
+    <Compile Remove="Migrations\20220317063133_AllUpdated.cs" />
+    <Compile Remove="Migrations\20220317063133_AllUpdated.Designer.cs" />
+    <Compile Remove="Migrations\20220317072232_Connectioncreated.cs" />
+    <Compile Remove="Migrations\20220317072232_Connectioncreated.Designer.cs" />
+    <Compile Remove="Migrations\20220317073614_updateCreated.cs" />
+    <Compile Remove="Migrations\20220317073614_updateCreated.Designer.cs" />
+    <Compile Remove="Migrations\20220317074108_updateCreated.cs" />
+    <Compile Remove="Migrations\20220317074108_updateCreated.Designer.cs" />
+    <Compile Remove="Migrations\20220317074241_updateCreated.cs" />
+    <Compile Remove="Migrations\20220317074241_updateCreated.Designer.cs" />
+    <Compile Remove="Migrations\20220317074647_updateCreatedNullable.cs" />
+    <Compile Remove="Migrations\20220317074647_updateCreatedNullable.Designer.cs" />
+    <Compile Remove="Migrations\20220317074952_NullableDisabled.cs" />
+    <Compile Remove="Migrations\20220317074952_NullableDisabled.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.23">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
